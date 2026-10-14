@@ -1,14 +1,14 @@
 {
-  "changelog": "### 新增\n\n- 关于页可浏览历史更新日志\n",
-  "downloadUrl": "https://github.com/bgluminous/my-ai-assistant/releases/download/v1.5.0/my-ai-assistant_1.5.0_aarch64.dmg",
+  "changelog": "### 新增\n\n- 同步与更新显示实时进度\n\n",
+  "downloadUrl": "https://github.com/bgluminous/my-ai-assistant/releases/download/v1.6.0/my-ai-assistant_1.6.0_aarch64.dmg",
   "extra": {
     "updater": {
-      "manifestUrl": "https://github.com/bgluminous/my-ai-assistant/releases/download/v1.5.0/updater-macos-arm64.json"
+      "manifestUrl": "https://github.com/bgluminous/my-ai-assistant/releases/download/v1.6.0/updater-macos-arm64.json"
     }
   },
   "forceUpdate": false,
   "platformCode": "macos-arm64",
   "projectCode": "my-ai-assistant",
-  "version": "1.5.0",
-  "versionCode": 10136193
+  "version": "1.6.0",
+  "versionCode": 10137217
 }
