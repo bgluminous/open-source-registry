@@ -1,5 +1,5 @@
 {
-  "changelog": "## 变更\n\n### 新增\n\n- 关于页可浏览历史更新日志\n",
+  "changelog": "### 新增\n\n- 关于页可浏览历史更新日志\n",
   "downloadUrl": "https://github.com/bgluminous/my-ai-assistant/releases/download/v1.5.0/my-ai-assistant_1.5.0_aarch64.dmg",
   "extra": {
     "updater": {

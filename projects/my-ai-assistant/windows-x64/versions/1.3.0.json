@@ -1,5 +1,5 @@
 {
-  "changelog": "## 变更\n\n### 新增\n\n- 应用内更新、GPT 用量同步与 GitHub 发布索引\n\n### 修复\n\n- 草稿 Release 无法上传安装包\n",
+  "changelog": "### 新增\n\n- 应用内更新、GPT 用量同步与 GitHub 发布索引\n\n### 修复\n\n- 草稿 Release 无法上传安装包\n",
   "downloadUrl": "https://github.com/bgluminous/my-ai-assistant/releases/download/v1.3.0/my-ai-assistant_1.3.0_x64-setup.exe",
   "extra": {
     "updater": {
