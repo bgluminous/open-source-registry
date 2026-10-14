@@ -1,5 +1,5 @@
 {
-  "changelog": "## 下载\n\n- Windows x64\n  - `my-ai-assistant_1.5.0_x64-setup.exe`：NSIS 安装包（推荐）\n  - `my-ai-assistant_1.5.0_x64_en-US.msi`：MSI 安装包\n  - `my-ai-assistant.exe`：便携版，需要系统已安装 WebView2\n- macOS（Apple Silicon）\n  - `my-ai-assistant_1.5.0_aarch64.dmg`\n\n已安装含更新模块的版本，可在「关于」页检查更新；更旧版本需先手动安装一次。\n`.sig`、`.app.tar.gz` 与 `updater-*.json` 是应用内更新资源，无需手动解压。\n\n安装包未做代码签名：Windows SmartScreen 可能提示「未知发布者」；macOS 首次打开若提示\n「已损坏」或「无法验证开发者」，在终端执行 `xattr -cr /Applications/my-ai-assistant.app` 后再打开。\n\n## 变更\n\n### 新增\n\n- 关于页可浏览历史更新日志\n\n完整对比：https://github.com/bgluminous/my-ai-assistant/compare/v1.4.0...v1.5.0\n",
+  "changelog": "## 变更\n\n### 新增\n\n- 关于页可浏览历史更新日志\n",
   "downloadUrl": "https://github.com/bgluminous/my-ai-assistant/releases/download/v1.5.0/my-ai-assistant_1.5.0_x64-setup.exe",
   "extra": {
     "updater": {
