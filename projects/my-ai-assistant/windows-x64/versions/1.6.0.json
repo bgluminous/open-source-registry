@@ -1,0 +1,14 @@
+{
+  "changelog": "### 新增\n\n- 同步与更新显示实时进度\n\n",
+  "downloadUrl": "https://github.com/bgluminous/my-ai-assistant/releases/download/v1.6.0/my-ai-assistant_1.6.0_x64-setup.exe",
+  "extra": {
+    "updater": {
+      "manifestUrl": "https://github.com/bgluminous/my-ai-assistant/releases/download/v1.6.0/updater-windows-x64.json"
+    }
+  },
+  "forceUpdate": false,
+  "platformCode": "windows-x64",
+  "projectCode": "my-ai-assistant",
+  "version": "1.6.0",
+  "versionCode": 10137217
+}
