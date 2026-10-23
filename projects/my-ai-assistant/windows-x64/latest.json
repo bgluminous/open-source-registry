@@ -1,14 +1,14 @@
 {
-  "changelog": "### 修复\n\n- 修复更新日志只展示提交标题、遗漏功能和修复细节的问题。\n- 补齐历史版本的更新说明，并统一应用内与 GitHub Release 的变更内容。\n- 修复托盘图表重新打开或切换屏幕后尺寸异常的问题。\n- 修复托盘图表悬停提示被裁切的问题，完整显示模型、用量与费用。\n- 补齐 GPT-6 Sol / GPT-6 Luna / GPT-6.1 Sol 及 Fast 模式的默认价格，\n  修正相关模型的等价费用折算。\n\n### 优化\n\n- 版本日志由 agent 在发布前审阅提交和代码差异后编写，随版本保存并提交。\n- 发布前检查对应日志是否完整填写，避免发布空白或占位说明。\n",
-  "downloadUrl": "https://github.com/bgluminous/my-ai-assistant/releases/download/v1.6.1/my-ai-assistant_1.6.1_x64-setup.exe",
+  "changelog": "### 修复\n\n- 补齐 Claude Sonnet / Haiku 5.5、GPT-5.1、GPT-4.1 Nano、Chat Latest、\n  Gemini、Grok、GLM、MiniMax 和 Mistral / Codestral 等 23 项模型价格，\n  减少用量被标记为「未定价」或套用其他型号价格的情况。\n- 修正 DeepSeek Flash 及旧名称 DeepSeek V4 Flash 的默认价格，避免等价费用高估。\n\n### 优化\n\n- 补充缓存费用、长上下文阶梯、Fast 档位与促销有效期说明，便于核对费用折算口径。\n",
+  "downloadUrl": "https://github.com/bgluminous/my-ai-assistant/releases/download/v1.6.2/my-ai-assistant_1.6.2_x64-setup.exe",
   "extra": {
     "updater": {
-      "manifestUrl": "https://github.com/bgluminous/my-ai-assistant/releases/download/v1.6.1/updater-windows-x64.json"
+      "manifestUrl": "https://github.com/bgluminous/my-ai-assistant/releases/download/v1.6.2/updater-windows-x64.json"
     }
   },
   "forceUpdate": false,
   "platformCode": "windows-x64",
   "projectCode": "my-ai-assistant",
-  "version": "1.6.1",
-  "versionCode": 10137225
+  "version": "1.6.2",
+  "versionCode": 10137233
 }

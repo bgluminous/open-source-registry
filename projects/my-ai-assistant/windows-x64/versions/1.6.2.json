@@ -1,0 +1,14 @@
+{
+  "changelog": "### 修复\n\n- 补齐 Claude Sonnet / Haiku 5.5、GPT-5.1、GPT-4.1 Nano、Chat Latest、\n  Gemini、Grok、GLM、MiniMax 和 Mistral / Codestral 等 23 项模型价格，\n  减少用量被标记为「未定价」或套用其他型号价格的情况。\n- 修正 DeepSeek Flash 及旧名称 DeepSeek V4 Flash 的默认价格，避免等价费用高估。\n\n### 优化\n\n- 补充缓存费用、长上下文阶梯、Fast 档位与促销有效期说明，便于核对费用折算口径。\n",
+  "downloadUrl": "https://github.com/bgluminous/my-ai-assistant/releases/download/v1.6.2/my-ai-assistant_1.6.2_x64-setup.exe",
+  "extra": {
+    "updater": {
+      "manifestUrl": "https://github.com/bgluminous/my-ai-assistant/releases/download/v1.6.2/updater-windows-x64.json"
+    }
+  },
+  "forceUpdate": false,
+  "platformCode": "windows-x64",
+  "projectCode": "my-ai-assistant",
+  "version": "1.6.2",
+  "versionCode": 10137233
+}
