@@ -1,0 +1,14 @@
+{
+  "changelog": "### 优化\n\n- 中心服务支持过滤时，日常同步不再重复下载本机刚上传的记录，减少重复传输。\n- 首次接入、清理缓存或同步重置后，启用过滤前先恢复完整历史，再上传本机新增记录。\n- 历史恢复中断后可继续下载，保存同步进度与模式，避免遗漏本机和其他设备的用量来源。\n\n### 兼容\n\n- 旧中心服务继续使用原有同步流程，服务端升级后自动启用过滤，无需额外设置。\n- 服务能力变化时自动调整下载方式，保留已确认的上传记录和本地历史。\n",
+  "downloadUrl": "https://github.com/bgluminous/my-ai-assistant/releases/download/v1.8.0/my-ai-assistant_1.8.0_aarch64.dmg",
+  "extra": {
+    "updater": {
+      "manifestUrl": "https://github.com/bgluminous/my-ai-assistant/releases/download/v1.8.0/updater-macos-arm64.json"
+    }
+  },
+  "forceUpdate": false,
+  "platformCode": "macos-arm64",
+  "projectCode": "my-ai-assistant",
+  "version": "1.8.0",
+  "versionCode": 10139265
+}
