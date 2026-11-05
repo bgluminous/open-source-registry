@@ -1,0 +1,12 @@
+{
+  "changelog": "- **公开页服务行**：按管理页行列表对齐服务名称、四项指标与状态条，\n  保留名称下方的最后检测时间，收紧桌面行高并适配平板、手机及极窄屏。\n- **飞书通知**：优化监控、公告、维护及配置测试卡片，区分状态变化与通知类型，\n  并在时间后标注时区。监控通知使用本次检测规则、最终结果与证书信息，\n  避免展示历史证书或将无响应误判为超时；兼容已有待投递通知。\n- **状态条统计**：管理端与公开页分别展示失败、警告和总检测次数，\n  避免将警告计为失败，并保持维护样本的统计排除规则。",
+  "downloadUrl": "https://hub.docker.com/r/bgluminous/xilore-uptime/tags?name=2.5.1",
+  "extra": {
+    "arch": "amd64"
+  },
+  "forceUpdate": false,
+  "platformCode": "docker-linux-amd64",
+  "projectCode": "xilore-uptime",
+  "version": "2.5.1",
+  "versionCode": 10267273
+}
