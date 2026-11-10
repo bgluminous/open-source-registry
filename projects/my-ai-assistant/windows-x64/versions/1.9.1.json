@@ -1,0 +1,14 @@
+{
+  "changelog": "### 修复\n\n- 账户列表的套餐名和价格保持同一行，长名称可悬停查看全文，到期天数独立显示。\n- 用量统计与托盘总览先更新本机数据，再在后台同步其他设备的用量。\n  同步较慢或失败时仍可查看统计，切换日期和设备不会被旧请求覆盖。\n",
+  "downloadUrl": "https://github.com/bgluminous/my-ai-assistant/releases/download/v1.9.1/my-ai-assistant_1.9.1_x64-setup.exe",
+  "extra": {
+    "updater": {
+      "manifestUrl": "https://github.com/bgluminous/my-ai-assistant/releases/download/v1.9.1/updater-windows-x64.json"
+    }
+  },
+  "forceUpdate": false,
+  "platformCode": "windows-x64",
+  "projectCode": "my-ai-assistant",
+  "version": "1.9.1",
+  "versionCode": 10140297
+}
