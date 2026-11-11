@@ -1,12 +1,12 @@
 {
-  "changelog": "- **默认通知与单项例外**：支持全局渠道、单项自定义及关闭通知，\n  切换默认渠道可统一调整跟随全局的监控；升级保留原通知配置。\n- **批量设置通知**：支持搜索、分组筛选和勾选，默认保护关闭通知的监控，\n  保存前展示影响范围，失败整批回滚。列表与详情展示实际渠道。\n- **配置与投递一致性**：默认渠道与连接配置一起校验保存，普通告警和维护首检\n  共用渠道解析，已有队列重试保留原渠道；兼容旧接口的单项开关。\n\n- **通知配置可靠性**：创建和编辑的响应读取失败时回滚写入，避免误报失败后重复创建；\n  设置并发保存先锁定再校验，防止默认渠道指向已清空的连接配置。\n  维护首检在通知配置异常时仍保存结果，并保留待解析通知供重试。",
-  "downloadUrl": "https://hub.docker.com/r/bgluminous/xilore-uptime/tags?name=2.6.0",
+  "changelog": "- **弹窗键盘关闭**：新增、复制和编辑浮窗支持在 2 秒内按两次 Esc 关闭，\n  首次按键显示提示；与遮罩点击切换、继续编辑或超时后重新确认，长按不会误关。\n  窄屏表单浮窗为顶部提示预留空间，避免遮挡标题。",
+  "downloadUrl": "https://hub.docker.com/r/bgluminous/xilore-uptime/tags?name=2.7.0",
   "extra": {
     "arch": "amd64"
   },
   "forceUpdate": false,
   "platformCode": "dockerhub-linux-amd64",
   "projectCode": "xilore-uptime",
-  "version": "2.6.0",
-  "versionCode": 10268289
+  "version": "2.7.0",
+  "versionCode": 10269313
 }
