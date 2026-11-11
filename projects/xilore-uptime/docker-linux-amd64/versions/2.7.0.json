@@ -1,0 +1,12 @@
+{
+  "changelog": "- **弹窗键盘关闭**：新增、复制和编辑浮窗支持在 2 秒内按两次 Esc 关闭，\n  首次按键显示提示；与遮罩点击切换、继续编辑或超时后重新确认，长按不会误关。\n  窄屏表单浮窗为顶部提示预留空间，避免遮挡标题。",
+  "downloadUrl": "https://hub.docker.com/r/bgluminous/xilore-uptime/tags?name=2.7.0",
+  "extra": {
+    "arch": "amd64"
+  },
+  "forceUpdate": false,
+  "platformCode": "docker-linux-amd64",
+  "projectCode": "xilore-uptime",
+  "version": "2.7.0",
+  "versionCode": 10269313
+}
