@@ -1,0 +1,12 @@
+{
+  "changelog": "- **不发送警告通知**：监控支持单独忽略重试成功的波动警告，\n  离线后的恢复仍正常通知并保留重试说明；邮件、Webhook、飞书行为一致。\n  新建和已有监控默认保持原行为，复制继承偏好，历史记录和统计不受影响。\n- **独立批量调整**：通知方式和警告通知均支持「不修改」，可以只更新一个选项。\n  列表、详情和只读配置展示警告偏好，仅改通知设置不会触发额外检测。",
+  "downloadUrl": "https://hub.docker.com/r/bgluminous/xilore-uptime/tags?name=2.8.0",
+  "extra": {
+    "arch": "amd64"
+  },
+  "forceUpdate": false,
+  "platformCode": "dockerhub-linux-amd64",
+  "projectCode": "xilore-uptime",
+  "version": "2.8.0",
+  "versionCode": 10270337
+}
