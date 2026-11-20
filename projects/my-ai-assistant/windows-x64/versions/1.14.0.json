@@ -1,0 +1,14 @@
+{
+  "changelog": "## 新增\n\n- 添加 ChatGPT 账户时，可填写 Token、选择一个 `auth.json` 文件，或粘贴完整 JSON。\n  文件和 JSON 会保留 Auth 的扩展字段，并在本机加密保存。\n- 三种添加方式各自保留草稿，切换方式时可继续编辑，保存时提交当前选项的内容。\n\n## 调整\n\n- 在添加入口选定供应商后，表单直接进入对应账户类型。\n",
+  "downloadUrl": "https://github.com/bgluminous/my-ai-assistant/releases/download/v1.14.0/my-ai-assistant_1.14.0_x64-setup.exe",
+  "extra": {
+    "updater": {
+      "manifestUrl": "https://github.com/bgluminous/my-ai-assistant/releases/download/v1.14.0/updater-windows-x64.json"
+    }
+  },
+  "forceUpdate": false,
+  "platformCode": "windows-x64",
+  "projectCode": "my-ai-assistant",
+  "version": "1.14.0",
+  "versionCode": 10145409
+}
