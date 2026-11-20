@@ -1,14 +1,14 @@
 {
-  "changelog": "## 新增\n\n- OpenCode、GPT / Codex 和 Claude 支持同时切换已安装的 CLI 与 Desktop，也支持单端使用。\n  主窗口和托盘会分别显示各端结果，运行中的 CLI 会话会保留。\n- Claude Desktop 可在账户编辑中绑定登录。完成或取消绑定后会恢复原登录，\n  中断后可从编辑或切换窗口恢复。桌面登录快照仅保存在本机。\n- GPT / Codex 支持按本机配置读取文件、系统钥匙串和加密凭据存储，\n  用于账户导入、切换、退出和凭据同步。\n- ChatGPT、Claude 和 OpenCode 可按账户关闭「自动续期 Token」。\n  关闭后仍可用现有 Token 查询，主动切换、修改凭据和重新授权沿用原流程。\n- 内置价格表新增 GPT-6.2 Astra / Sol 的标准与 Fast 档，共 4 项。\n- `codex-auto-review` 和 `default` 仍统计 Token 用量，等价费用按零价计算。\n\n## 优化\n\n- Cursor、ChatGPT、Claude 和 OpenCode 刷新各自排队，同一供应商按顺序执行，\n  不同供应商可并行，慢请求不会拖延其他供应商的下次刷新。\n- OpenCode Desktop 可使用内置 CLI；两端共用数据库时只切换一次，\n  独立数据库分别切换。切换或启动失败时尝试恢复对应登录。\n- OpenCode 原生授权遇到临时查询错误后会继续等待，授权结束后会显示结果。\n",
-  "downloadUrl": "https://github.com/bgluminous/my-ai-assistant/releases/download/v1.12.0/my-ai-assistant_1.12.0_aarch64.dmg",
+  "changelog": "## 新增\n\n- 首页与托盘共用账户列表。点击「＋」添加账户，拖动行或使用上下方向键排序。\n  两个窗口同步显示顺序，全量备份可恢复排序。\n- ChatGPT 账户可切换「Token」与「完整 Auth」模式，查看或粘贴该账户的凭据副本。\n  保存时保留自定义字段。后台续期后会提示重新载入，并保留当前草稿。\n- 「导出全部」按列表顺序导出。每行「操作」列的导出图标可单独导出该账户。\n  导入兼容旧版单类型文件，新账户按文件顺序追加。\n- OpenCode 可在用量页查看工作区逐笔账单，核对请求、Token 和官方记录成本，\n  并按模型筛选、导出 CSV。\n- 内置价格表加入 Gemini 4 Neon，可折算输入、输出及隐式缓存读费用。\n\n## 调整\n\n- 首页工具栏集中提供刷新全部、导入、导出全部、退出本机登录与添加账户。\n  退出本机登录时可选择客户端。升级后沿用原有账户显示顺序。\n",
+  "downloadUrl": "https://github.com/bgluminous/my-ai-assistant/releases/download/v1.13.0/my-ai-assistant_1.13.0_aarch64.dmg",
   "extra": {
     "updater": {
-      "manifestUrl": "https://github.com/bgluminous/my-ai-assistant/releases/download/v1.12.0/updater-macos-arm64.json"
+      "manifestUrl": "https://github.com/bgluminous/my-ai-assistant/releases/download/v1.13.0/updater-macos-arm64.json"
     }
   },
   "forceUpdate": false,
   "platformCode": "macos-arm64",
   "projectCode": "my-ai-assistant",
-  "version": "1.12.0",
-  "versionCode": 10143361
+  "version": "1.13.0",
+  "versionCode": 10144385
 }
