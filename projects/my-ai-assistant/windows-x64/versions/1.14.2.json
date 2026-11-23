@@ -1,0 +1,14 @@
+{
+  "changelog": "## 修复\n\n- 悬停在账户列表的重置文字或托盘额度条上，可查看额度重置的本地日期和时分。\n  服务商仅提供日期时显示该日期。\n",
+  "downloadUrl": "https://github.com/bgluminous/my-ai-assistant/releases/download/v1.14.2/my-ai-assistant_1.14.2_x64-setup.exe",
+  "extra": {
+    "updater": {
+      "manifestUrl": "https://github.com/bgluminous/my-ai-assistant/releases/download/v1.14.2/updater-windows-x64.json"
+    }
+  },
+  "forceUpdate": false,
+  "platformCode": "windows-x64",
+  "projectCode": "my-ai-assistant",
+  "version": "1.14.2",
+  "versionCode": 10145425
+}
