@@ -1,0 +1,14 @@
+{
+  "changelog": "## 修复\n\n- 从主窗口或托盘切换 GPT / Codex、Claude 或 OpenCode 账户成功后，结果弹窗会在 3 秒后\n  自动关闭，也可在倒计时期间手动关闭。切换未全部成功时，弹窗会保留，方便查看原因。\n\n## 文档\n\n- 项目首页更新了账户、用量和托盘截图。安装、账户操作和同步恢复步骤集中在中英文使用指南中。\n",
+  "downloadUrl": "https://github.com/bgluminous/my-ai-assistant/releases/download/v1.14.3/my-ai-assistant_1.14.3_x64-setup.exe",
+  "extra": {
+    "updater": {
+      "manifestUrl": "https://github.com/bgluminous/my-ai-assistant/releases/download/v1.14.3/updater-windows-x64.json"
+    }
+  },
+  "forceUpdate": false,
+  "platformCode": "windows-x64",
+  "projectCode": "my-ai-assistant",
+  "version": "1.14.3",
+  "versionCode": 10145433
+}
