@@ -1,14 +1,14 @@
 {
-  "changelog": "## 修复\n\n- 从主窗口或托盘切换 GPT / Codex、Claude 或 OpenCode 账户成功后，结果弹窗会在 3 秒后\n  自动关闭，也可在倒计时期间手动关闭。切换未全部成功时，弹窗会保留，方便查看原因。\n\n## 文档\n\n- 项目首页更新了账户、用量和托盘截图。安装、账户操作和同步恢复步骤集中在中英文使用指南中。\n",
-  "downloadUrl": "https://github.com/bgluminous/my-ai-assistant/releases/download/v1.14.3/my-ai-assistant_1.14.3_x64-setup.exe",
+  "changelog": "## 新增\n\n- 在「设置 → 通用」选择跟随系统、简体中文或英语。切换后，主窗口、托盘和图表即时更新。\n- 用量快照和账单 CSV 使用当前界面语言。按列名读取 CSV 时，请使用对应语言的表头。\n- 支持通过 JSON 语言包修改译文和添加语言，可在设置中打开模板所在的文件夹。\n\n## 调整\n\n- 审计事件名称随语言切换，日志详情与发布说明保留原文。\n- 全量备份包含语言偏好。导入旧备份时沿用本机选择。\n",
+  "downloadUrl": "https://github.com/bgluminous/my-ai-assistant/releases/download/v1.15.0/my-ai-assistant_1.15.0_x64-setup.exe",
   "extra": {
     "updater": {
-      "manifestUrl": "https://github.com/bgluminous/my-ai-assistant/releases/download/v1.14.3/updater-windows-x64.json"
+      "manifestUrl": "https://github.com/bgluminous/my-ai-assistant/releases/download/v1.15.0/updater-windows-x64.json"
     }
   },
   "forceUpdate": false,
   "platformCode": "windows-x64",
   "projectCode": "my-ai-assistant",
-  "version": "1.14.3",
-  "versionCode": 10145433
+  "version": "1.15.0",
+  "versionCode": 10146433
 }
